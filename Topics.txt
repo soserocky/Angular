@@ -1,0 +1,4 @@
+Directives,
+Change detection strategy,
+Forms
+Dynamic components
