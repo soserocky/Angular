@@ -1,0 +1,11 @@
+<p *ngIf="flag; else noFlag">This is flag = true</p>
+<ng-template #noFlag>
+  <p>This is flag = false</p>
+</ng-template>
+
+<div *ngFor="let i of numbers; let in = index">
+  <p style="background-color: aqua" *ngIf="i % 2 > 0; else even">This is odd</p>
+  <ng-template #even>
+    <p style="background-color: orange">This is even</p>
+  </ng-template>
+</div>

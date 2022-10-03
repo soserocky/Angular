@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Lab1Component implements OnInit {
   public message: string = '';
-  public isEnabled = true;
+  public isEnabled : boolean = true;
+  public myText: string = '';
   constructor() {}
 
   ngOnInit(): void {
@@ -22,5 +23,8 @@ export class Lab1Component implements OnInit {
   enableClickMe(event: Event) {
     this.isEnabled = true;
     this.disableClickMe();
+  }
+  onKeypress(event: KeyboardEvent) {
+    this.myText += event.key;
   }
 }

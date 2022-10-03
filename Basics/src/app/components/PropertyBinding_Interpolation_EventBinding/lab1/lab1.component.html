@@ -1,3 +1,6 @@
 <p>{{ message }}</p>
 <p><button [disabled]="!isEnabled">Click me</button></p>
 <p><button (click)="enableClickMe($event)">Enable Click me</button></p>
+<input type="text" value="" (keypress)="onKeypress($event)"/>
+<br />
+<textarea [(ngModel)]="myText"></textarea>

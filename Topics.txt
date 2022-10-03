@@ -1,4 +1,13 @@
+Input, Output, Pass data between sibling components,
+Lifecycle events,
+Dependency Injection,
 Directives,
-Change detection strategy,
-Forms
-Dynamic components
+Routing,
+Guards,
+View Encapsulation, Change detection strategy,
+Forms,
+Dynamic components,
+Pipes,
+Observables, 
+Http Calls,
+Interceptors
