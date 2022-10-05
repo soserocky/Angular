@@ -1,0 +1,5 @@
+<div style="border:1px solid orange;">
+  <p>lab4 - this is the parent component</p>
+  <app-lab5 [data]="'Data from Lab4'" (eventEmitter)="onEventEmitted($event)"></app-lab5>
+  <p>Data from output event: <span style="color: darkgreen">{{outputData}}</span></p>
+</div>
