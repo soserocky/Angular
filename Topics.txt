@@ -1,6 +1,7 @@
 Input, Output, Pass data between sibling components,
 Lifecycle events,
 Dependency Injection,
+Services,
 Directives,
 Routing,
 Guards,
